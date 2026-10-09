@@ -503,7 +503,7 @@
 
   <div class='actions'>
     <a class='btn secondary' href='#s0' style='text-decoration:none;display:inline-block'>← Zurück</a>
-    <a class='btn' href='#s2' data-action='selection-next' style='text-decoration:none;display:inline-block'>Auswahl übernehmen →</a>
+    <a class='btn' href='#s3' data-action='selection-next' style='text-decoration:none;display:inline-block'>Auswahl übernehmen →</a>
   </div>
 </section>
 
@@ -1145,7 +1145,7 @@ document.addEventListener('click', function(e){
   if(btn.tagName==='A') e.preventDefault();
   const action=btn.dataset.action;
   if(action==='go') go(Number(btn.dataset.target));
-  if(action==='selection-next'){ applySelection(); go(2); }
+  if(action==='selection-next'){ applySelection(); go(3); }
   if(action==='summary-next'){ buildSummary(); go(4); }
   if(action==='print') printOnePager();
   if(action==='coverage-search') runCoverageFinder();
