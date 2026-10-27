@@ -1,0 +1,24 @@
+/* V35: moderat lesbarere A4-Typografie und kompaktere Abstände. */
+@media print{
+  #s4 .industry-visual{height:42mm}
+  #s4 .solution-modules{gap:1.2mm}
+  #s4 .solution-module,#s4 .solution-module.active{padding:1.8mm}
+  #s4 .solution-module h3{font-size:9.5px}
+  #s4 .solution-module li{font-size:7.2px;line-height:1.3}
+  #s4 .solution-module .state,#s4 .solution-module .not-needed{font-size:6.4px}
+  #s4 .scenario-section{margin-top:1.8mm}
+  #s4 .scenario-card{padding:1.8mm}
+  #s4 .scenario-card h3{font-size:8.5px;line-height:1.25;margin:.5mm 0}
+  #s4 .scenario-card p{font-size:7px;line-height:1.32}
+  #s4 .scenario-card small,#s4 .scenario-card .scenario-module{font-size:5.8px;line-height:1.2}
+  #s4 .usp-grid{grid-template-columns:repeat(3,1fr);gap:1.2mm}
+  #s4 .usp-item{padding:1.3mm 1.5mm}
+  #s4 .usp-item strong{font-size:8.5px;line-height:1.2}
+  #s4 .usp-item p{font-size:6.8px;line-height:1.28}
+  #s4 .premium-panel{padding:2.5mm 3.5mm}
+}
+@media screen{
+  #s4 .solution-module li{font-size:12px;line-height:1.4}
+  #s4 .scenario-card p{font-size:15px;line-height:1.5}
+  #s4 .usp-item p{font-size:15px;line-height:1.45}
+}

@@ -1,0 +1,12 @@
+AXA-ARAG Beratungsnavigator V35 – GitHub Upload
+
+1. ZIP entpacken.
+2. Sämtliche Dateien und Ordner INNERHALB des Ordners github-v35 ins Hauptverzeichnis des GitHub-Repositories hochladen.
+3. Bestehende Dateien ersetzen.
+4. Wichtig: index.html, assets/, avb/ und die PDF-Dateien im Hauptverzeichnis gemeinsam hochladen.
+5. Die bestehende GitHub-Pages-Konfiguration beibehalten.
+
+V35: moderat grössere Schrift im One-Pager; kompakteres Branchenbild; bei ungerader Vorteilskartenzahl wird „220 Juristinnen und Juristen“ ausgeblendet.
+
+HINWEIS ZU V35 (E-MAIL-KOMPATIBEL)
+Die Damage-Matrix ist direkt in index.html integriert. Eine separate Datei assets/damage-matrix.js ist nicht erforderlich.
